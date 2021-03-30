@@ -9,6 +9,7 @@ Cycles between spot balance and futures balance in USDT on segment display.
      | DIGIT_OFF | LOW | LOW for common anode displays |
      | SEGMENT_ON | LOW | LOW for common anode displays |
      | SEGMENT_OFF | HIGH | HIGH for common anode displays |
+     | DISPLAY_BRIGHTNESS | 750 | Time in μs to keep digit lit |
      | digit1 (1-4) | 32, 33, 25, 26 | PIN numbers to set which digit to light |
      | APIKEY | (None) | Insert your API key from Binance |
      | APISECRET | (None) | Insert your API secret from Binance |
