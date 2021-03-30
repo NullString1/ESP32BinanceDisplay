@@ -1,5 +1,5 @@
 # ESP32BinanceDisplay
-Uses an ESP32 and the Binance API to display values on a segment display
+Cycles between spot balance and futures balance in USDT on segment display. 
 ## Installation
 1. Copy into blank sketch
 2. Fill in requires values
@@ -19,3 +19,6 @@ Uses an ESP32 and the Binance API to display values on a segment display
      | password | (None) | Insert your network PSK |
      | segA (A-G) | 19, 18, 5, 17, 16, 4, 0 | PIN numbers to set which segment to light |
 3. Wire display to set pins and flash to ESP32
+## Limitations
+- Only reads USDT in futures wallet
+- Only reads BTC in spot wallet
